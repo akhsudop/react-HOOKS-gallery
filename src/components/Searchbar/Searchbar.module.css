@@ -1,0 +1,25 @@
+.searchbar {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(177, 177, 224);
+  padding-block: 25px;
+  border-bottom: 1px solid rgb(165, 165, 225);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.searchbar__form input {
+  margin-right: 15px;
+  height: 25px;
+  width: 200px;
+  border: 1px solid rgb(165, 165, 225);
+  border-radius: 5px;
+  color: rgb(84, 84, 113);
+  transition: border-bottom-width 80ms;
+}
+
+.searchbar__form input:focus {
+  outline: none;
+  border-bottom: solid rgb(135, 135, 182);
+  border-bottom-width: 3px;
+}
